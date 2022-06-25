@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png">
+        <source media="(max-width:1050px )" srcset="Imagens/foto-m.png">
+        <img src="Imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos aprender a reproduzr audio em HTML5</p>
+    <audio src="midia/blessed-be-your-name-lyrics-and-chords.mp3" controls autoplay loop></audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="auto" controls autoplay>
+        <source src="midia/everlasting-god-chris-tomlin.mp3" type="audio/mpeg">
+        <source src="midia/everlasting-god-chris-tomlin.ogg" type="audio/ogg">
+        <source src="midia/everlasting-god-chris-tomlin.haw" type="audio/haw"><!--não usar pois é pesado-->
+
+        <p>Infelizmente seu naegandor nao pode reproduzir esse audio <a href="midia/everlasting-god-chris-tomlin.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html>

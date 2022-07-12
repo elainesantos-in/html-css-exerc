@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+</head>
+
+<style>
+    h1 { /*box level*/
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+
+        /*border-width: 10px;
+        border-style:solid;
+        border-color: #272525;*/
+
+        border: 10px solid #272525;
+
+        /*padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;*/
+        
+
+        padding: 10px 10px 10px 10px;
+        /*Se as 4 forem iguais, basta colocar uma vez só*/
+
+        /*margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;*/
+
+        margin: 10px;
+
+        /*outline-width: 5px;
+        outline-style: dashed;
+        outline-color: salmon;*/
+
+        outline: 5px dashed salmon
+    }
+
+    a { /*inline level*/
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+
+        /*margin:auto usao para deixar as caixas centralizadas*/
+    }
+</style>
+<body>
+    <h1>Exemplo de Caixa</h1>
+    <p>Paragrafos tambem são exemplos de box level, mas os links <a href="#">são exemplos de caixa inline level.</a> Vamos ver como tudo isso funciona</p>
+    
+    
+</body>
+</html>

@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format (opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+.cabecalho {
+    
+    padding: 10px;
+    background-image: linear-gradient(to top, #125e12 , #50af55,#89df8d);
+    }
+
+#titutocabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+
+#frasecabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: white;
+}
+
+ul {
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.menu li {font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    list-style: none;
+    padding: 0px 8px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: #a3dba6;
+}
+
+.conteudo {
+    width: 850px;
+    margin: 0px auto;
+    padding:25px;
+    background-color: white;
+}
+
+.titulohistoria { 
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    font-size: 2,5em;
+    color: #125e12;
+}
+
+.paragrafos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.subtitulohistoria {
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    font-size: 1,9em;
+    background-color: #89df8d;
+    color: #125e12;
+    padding: 8px;
+}
+
+.imagensconteudo {
+    margin: auto;
+    width: 850px;
+}
+
+.imagemmascote {
+    display: flex;
+    margin: 5px auto;
+}
+
+.video {
+    display: flex;
+    margin:20px auto;
+    background-color: #125e12;
+}
+    
+    
+
+
